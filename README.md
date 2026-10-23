@@ -32,9 +32,7 @@ The planned final set contains 1,000 held-out tasks. Every checkpoint would use 
 
 Comparisons would cover the base model, SFT, SFT→DPO, SFT→GRPO, and SFT→DPO→GRPO. Strict success would require both exact arithmetic and valid number use. A matched-training-budget comparison is necessary before attributing any advantage specifically to DPO. No measured success rates are reported in this repository.
 
-## References and provenance
+## References
 
 - [Qwen2.5-7B-Instruct model card](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
 - [TRL GRPO documentation](https://huggingface.co/docs/trl/grpo_trainer)
-
-This design and its documentation were prepared with AI assistance. The repository presents a proposed implementation and does not establish completed personal training or experimental contributions.
